@@ -1,0 +1,16 @@
+{
+  "name": "apex-resume-builder",
+  "version": "1.0.0",
+  "description": "AI-powered resume builder for Apex Equity",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.0.0",
+    "docx": "^8.0.0",
+    "cors": "^2.8.5"
+  }
+}
